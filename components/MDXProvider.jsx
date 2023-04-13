@@ -8,6 +8,7 @@ import SpeakerNotes from "./SpeakerNotes";
 import Step from "./Step";
 import Steps from "./Steps";
 import { motion } from "framer-motion";
+import Image from 'next/image'
 
 const mdComponents = {
   h1: (props) => <h1 {...props} />,
@@ -23,6 +24,14 @@ const mdComponents = {
         {...props}
       />
     );
+  },
+  img: (props) => {
+    //TODO: Determine width/height
+    const { src } = props;
+    return <div>
+            <Image src={src} layout="fill" objectFit="contain" />
+          </div>
+
   },
   Cover,
   SlidePage,
