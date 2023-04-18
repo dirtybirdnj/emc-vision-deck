@@ -83,6 +83,11 @@ const GlobalStyle = createGlobalStyle`
     margin-bottom:0.5em;
   }
 
+  #slide li {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
   #slide ol li::before {
     content: "0" counter(slide-ol-counter) ".";
     font-weight: bold;
