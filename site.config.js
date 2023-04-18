@@ -3,7 +3,7 @@ export const siteConfig = {
   title: `EMC Vision Presentation`,
   date: `April 18, 2023`,
   author: {
-    url: `https://twitter.com/whoisryosuke`,
+    url: `https://emc-vision-deck.vercel.app`,
   },
 }
 
